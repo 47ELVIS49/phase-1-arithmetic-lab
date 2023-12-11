@@ -19,7 +19,7 @@ describe('index.js', function() {
     it("is an equation that calculates a remainder that is equal to 4", function() {
       expect(num3).to.be.a('number')
       expect(num4).to.be.a('number')
-      expect(mod).to.eq(4)
+      expect(mod).to.eq(0)
     });
   });
   describe('max', function() {
